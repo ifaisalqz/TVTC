@@ -1,0 +1,14 @@
+declare
+    first_num integer(20);
+    sec_num integer(20);
+    result_num integer(20);
+begin
+    first_num:=:first_num;
+    sec_num:=:sec_num;
+    
+    result_num := (first_num + sec_num);
+
+    dbms_output.put_line('First Number is: ' || first_num);
+    dbms_output.put_line('Second Number is: ' || sec_num);
+    dbms_output.put_line('The Result is: ' || result_num);  
+END;
