@@ -1,6 +1,6 @@
 begin
     dbms_output.put_line('Name: Faisal');
     dbms_output.put_line('Major: Programming');
-    dbms_output.put_line('Subject PL/SQL');
+    dbms_output.put_line('Subject: PL/SQL');
     dbms_output.put_line(SYSDATE);
 END;
